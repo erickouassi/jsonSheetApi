@@ -5,7 +5,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: 'https://jsonapi.erickouassi.repl.co/'
+  origin: 'https://json-sheet-api.vercel.app'
 }));
 // GOOGLE_SERVICE_ACCOUNT
 const mySecret = process.env.TOKEN;
